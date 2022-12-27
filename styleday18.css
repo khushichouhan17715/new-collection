@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#left{
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(248, 227, 201);
+}
+#right{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 40%;
+    left: 60%;
+    background-color: rgb(255, 106, 0);
+}
+#img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("calicadoo-ttdio_nOPjQ-unsplash.jpg");
+    background-size: cover;
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    width: 95%;
+    /* border: 1px solid black; */
+    padding: 24px 30px;
+    text-align: center;
+}
+#div1 h4{
+    font-size: 23px;
+    
+}
+#div2{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+      
+}
+.div21{
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#div2 h4{
+    opacity: .5; 
+    font-size: 19px;
+    text-transform: capitalize;
+}
+#div3 i{
+    font-size: 21px;
+}
+#centertxt{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    /* border: 1px solid black;  */
+}
+#centertxt h1{
+    position: relative;
+    z-index: 25;
+    top: 30%;
+    font-size: 100px;
+    text-transform: capitalize;
+    font-weight: 200;
+    letter-spacing: 5px ;
+}
+#centertxt>h4{
+    margin-top: 30px;
+    text-transform: capitalize;
+    opacity: .6;
+    line-height: 24px;
+}
+#shopnow {
+    display: flex;
+    /* text-transform: capitalize; */
+    margin-top: 60px;
+    font-size: 24px;
+  
+}
+#shopnow #icon{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+#shopnow:hover{
+    font-size: 30px;
+}
+#circle{
+    position: absolute;
+    background-color: coral;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    top: 31%;
+    left: 32%;
+}
+.lines{
+    position: absolute;
+    background-color: coral;
+    height: 90px;
+    width: 12px;
+    transform: rotate(40deg);
+}
+#lines1{
+    top: -12px;
+    left: 85px;
+   
+}
+#lines2{
+    top: -28px;
+    left: 130px;
+}
+#lines3{
+    top: -38px;
+    left: 175px;
+}
